@@ -10,4 +10,4 @@ const lcm = (a, b) => (a * b) / gcd(a, b);
 
 const nextCoincidenceYear = initYear + lcm(period1, period2);
 
-console.log(`Следующий раз совпадение событий произойдет в ${nextCoincidenceYear} году.`);
+console.log(`Следующий раз совпадение произойдет в ${nextCoincidenceYear} году.`);
